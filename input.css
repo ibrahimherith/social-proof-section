@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: 'League Spartan', sans-serif;
+    background: url('../images/bg-pattern-top-desktop.svg') no-repeat, url('../images/bg-pattern-bottom-desktop.svg') no-repeat right;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background: url('../images/bg-pattern-top-mobile.svg') no-repeat, url('../images/bg-pattern-bottom-mobile.svg') no-repeat;
+    }
+}
+
+i {
+    color: gold;
+}
